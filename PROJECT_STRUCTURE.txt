@@ -1,0 +1,17 @@
+BankingPaymentsFramework_NoExcelReader/
+├── pom.xml
+├── README.md
+├── PROJECT_STRUCTURE.txt
+└── src/test/
+    ├── java/com/banking/framework/
+    │   ├── TestRunner.java
+    │   ├── steps/CommonSteps.java
+    │   ├── support/CommonLib.java          <-- Fillo Excel access; no ExcelReader.java
+    │   ├── support/PaymentRequestBuilder.java
+    │   ├── client/ApiClient.java
+    │   ├── client/HttpClientHelper.java
+    │   └── server/DummyBankingApi.java
+    └── resources/
+        ├── TestData.xlsx                   <-- positive + negative sheets
+        ├── features/payment.feature
+        └── requests/payment-request.json

@@ -1,0 +1,8 @@
+{
+  "messageId": "MSGIDXXXX",
+  "debtor": "DEBTORXXXX",
+  "creditor": "CREDITORXXXX",
+  "amount": AMOUNTXXXX,
+  "currency": "CCYXXXX",
+  "authorization": "AUTHTOKENXXXX"
+}
